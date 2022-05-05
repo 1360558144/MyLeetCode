@@ -1,4 +1,4 @@
-package com.zq.myleetcode.exercise;
+package org.zq.exercise;
 
 import java.util.HashMap;
 
