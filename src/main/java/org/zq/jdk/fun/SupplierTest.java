@@ -11,14 +11,14 @@ import java.util.function.Supplier;
 public class SupplierTest {
     public static void main(String[] args) {
         fun1(() -> {
-            int[] arr = {21,34,456,234,352,3,24,234,234,654,243,23};
+            int[] arr = {3,2,5,6,1,7,4,5,6,4};
             Arrays.sort(arr);
             return arr[arr.length - 1];
         });
     }
 
     public static void fun1(Supplier<Integer> supplier){
-        int max =supplier.get();
+        int max = supplier.get();
         System.out.println(max);
     }
 }
