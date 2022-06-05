@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 /**
  * @description:
  * @author:zq
@@ -18,4 +21,5 @@ public class User {
     private String name;
     private Integer age;
     private Integer height;
+
 }
