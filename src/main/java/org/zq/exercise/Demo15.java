@@ -14,9 +14,9 @@ public class Demo15 {
         Demo15 demo = new Demo15();
         int[] nums = {-1,0,1,2,-1,-4};
         List<List<Integer>> lists = demo.threeSum(nums);
-        lists.stream().forEach(System.out::println);
+        System.out.println(lists);
     }
-    public List<List<Integer>> threeSum(int[] nums) {// 总时间复杂度：O(n^2)
+    public List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> ans = new ArrayList<>();
         if(nums == null || nums.length <= 2) return ans;
